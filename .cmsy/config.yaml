@@ -1,0 +1,47 @@
+envs:
+  - name: GA_TRACKING_ID
+    title: Google Analytics Tracking ID
+    type: text
+    default: 'GA-TRACKING_ID'
+  - name: PRIMARY_COLOR
+    title: Primary color
+    type: color
+    default: '#014b3e'
+  - name: SITE_URL
+    title: Site Url
+    type: url
+    default: 'https://sites.cmsy.io'
+
+pages:
+  - name: index
+    title: Index page
+    path: /
+    content:
+      - name: title
+        title: Page title
+        type: text
+        default: Home
+      - name: header_title
+        title: Header title
+        type: text
+        default: ''
+      - name: header_subtitle
+        title: Header subtitle
+        type: text
+        default: ''
+      - name: cta
+        title: Call to action
+        type: text
+        default: 'Sign up'
+      - name: sections
+        title: Sections
+        type: list
+        listItems:
+          - name: title
+            title: Title
+            type: text
+            default: ''
+          - name: content
+            title: Content
+            type: markup
+            default: ''

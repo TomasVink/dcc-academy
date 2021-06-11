@@ -4,7 +4,7 @@ const Nav = () => (
   <nav className='navbar navbar-expand-lg navbar-dark navbar-custom fixed-top'>
     <div className='container px-5'>
       <a className='navbar-brand' href='#page-top'>
-        TTC Academy
+        DCC Academy
       </a>
       <button
         className='navbar-toggler'
