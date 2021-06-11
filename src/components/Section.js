@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Section = ({ title, children }) => (
-  <section id='scroll'>
+  <section>
     <div className='container px-4 my-5'>
       <div className='row gx-5'>
         <div className='col-lg-4 order-lg-1'>

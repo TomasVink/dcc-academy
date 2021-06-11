@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Section from '../components/Section'
+import JotformEmbed from 'react-jotform-embed'
 
 const Index = () => (
   <Layout>
@@ -66,6 +67,9 @@ const Index = () => (
         <li>Weet je hoe je je verder verdiept in web development</li>
       </ul>
     </Section>
+    <section id='signup'>
+      <JotformEmbed src='https://form.jotformeu.com/211603840424345' />
+    </section>
   </Layout>
 )
 

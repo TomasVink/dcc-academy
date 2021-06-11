@@ -1,8 +1,8 @@
 {
-  "name": "ttc-academy",
+  "name": "dcc-academy",
   "version": "1.0.0",
   "private": true,
-  "description": "ttc-academy",
+  "description": "dcc-academy",
   "author": "Tomas Vink",
   "keywords": [
     "gatsby"
@@ -30,6 +30,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-jotform-embed": "^1.1.1",
     "sass": "^1.34.1"
   }
 }
