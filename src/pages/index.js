@@ -174,6 +174,9 @@ const Index = () => (
         Lesdag op 6 en 13 september
       </p>
     </Section>
+    <Section title='Prijs'>
+      <p>249€ per week of 1.249€ voor 6 weken. Incl. BTW.</p>
+    </Section>
     <section id='signup'>
       <div className='container px-4 my-5'>
         <h2 className='display-5'>Inschrijven</h2>
