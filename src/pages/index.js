@@ -68,7 +68,9 @@ const Index = () => (
       </ul>
     </Section>
     <section id='signup'>
-      <JotformEmbed src='https://form.jotformeu.com/211603840424345' />
+      <div className='container'>
+        <JotformEmbed src='https://form.jotformeu.com/211603840424345' />
+      </div>
     </section>
   </Layout>
 )

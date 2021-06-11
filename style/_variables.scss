@@ -1,6 +1,14 @@
-// 
+//
 // Variables
-// 
+//
 
 @import "./variables/colors.scss";
 @import "./variables/typography.scss";
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px,
+) !default;
