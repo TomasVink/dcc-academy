@@ -4,6 +4,7 @@ const Header = ({ title, subTitle, cta }) => (
   <header className='masthead text-center text-white'>
     <div className='masthead-content'>
       <div className='container px-5'>
+        <h3>DCC Summer School presents:</h3>
         <h1 className='masthead-heading mb-0'>{title}</h1>
         <h2 className='masthead-subheading mb-0'>{subTitle}</h2>
         <a className='btn btn-primary btn-xl rounded-pill mt-5' href='#signup'>

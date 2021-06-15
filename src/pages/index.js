@@ -15,6 +15,10 @@ const Index = () => (
         name='description'
         content='Word Front End Dev rockstar en geef je carrièrekansen een boost met deze 6 weekse bootcamp.'
       />
+      <meta
+        property='og:image'
+        content='https://www.dccacademy.be/fb-share.jpg'
+      />
     </Helmet>
     <Header
       title='Front End Web Dev'
@@ -155,31 +159,42 @@ const Index = () => (
     <Section title='Data'>
       <p> 9 augustus tot 17 september (6 weken)</p>
       <p>
-        <b>Fase 1: The Basics</b>
+        <b>🏠 Fase 1: The Basics</b>
         <br />
         <em>JavaScript, Git en andere tools</em>
         <br />
         Lesdag op 9 en 16 augustus.
       </p>
       <p>
-        <b>Fase 2: The Start Up</b>
+        <b>🏗️ Fase 2: The Start Up</b>
         <br /> <em>React en CSS frameworks</em>
         <br />
         Lesdag op 23 en 30 augustus.
       </p>
       <p>
-        <b>Fase 3: The Bigger Picture</b>
+        <b>🌐 Fase 3: The Bigger Picture</b>
         <br /> <em>Node.js, API’s & front end frameworks</em>
         <br />
         Lesdag op 6 en 13 september
       </p>
     </Section>
-    <Section title='Prijs'>
+    <Section title='Prijs & inschrijven' id='signup'>
       <p>249€ per week of 1.249€ voor 6 weken. Incl. BTW.</p>
+      <p>
+        Stuur een mailtje naar{' '}
+        <a href='mailto:info@dccacademy.be'>info@dccacademy.be</a> voor meer
+        informatie en vragen over de inschrijving.
+      </p>
+      <p>Inschrijven kan door onderstaande formulier in te vullen.</p>
+      <p>
+        <b>
+          ⚠️ Schrijf je snel in, voor de eerste groep zijn slechts 5 plaatsen
+          beschikbaar. ⚠️
+        </b>
+      </p>
     </Section>
-    <section id='signup'>
+    <section>
       <div className='container px-4 my-5'>
-        <h2 className='display-5'>Inschrijven</h2>
         <JotformEmbed src='https://form.jotformeu.com/211612715835049' />
       </div>
     </section>

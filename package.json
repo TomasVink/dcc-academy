@@ -4,9 +4,7 @@
   "private": true,
   "description": "dcc-academy",
   "author": "Tomas Vink",
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "scripts": {
     "dev": "gatsby develop",
     "start": "gatsby develop",
@@ -28,7 +26,6 @@
     "gatsby-transformer-sharp": "^3.7.0",
     "install": "^0.13.0",
     "node-sass": "^6.0.0",
-    "npm": "^7.17.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
